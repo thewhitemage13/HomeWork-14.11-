@@ -14,8 +14,7 @@ int main()
 	char* name = new char[length] {};
 	cout << name << "\n";
 	cout << "Please, enter text: ";
-	gets_s(name, length)
-		;
+	gets_s(name, length);
 	for (int i = 0; i < strlen(name); i++)
 	{
 		cout << name[i] << "";
